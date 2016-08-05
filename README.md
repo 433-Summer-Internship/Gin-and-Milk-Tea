@@ -76,17 +76,17 @@ Login ----------------------------------> Loby ----> Room List 조회 ----------
 
 # <div id="fe"> FrontEnd Server</div>
 ##사용법
-반드시 release 브랜치의 파일을 다운받아주세요.
-폴더 안에 Release.zip파일이 있습니다.
-Release.zip파일을 압축을 풀고 해당 폴더에서 콘솔창을 열어 
-ChatServer listeningPort backEndIp backEndPort maxClientNum를 치면 시작 명령어 안내가 나옵니다.  
-maxClientNum: 한 서버에 접속가능한 최대 클라이언트 수
-안전한 종료(FIN전송 포함)을 위해서는 ESCAPE 키를 눌러주세요..
-
+반드시 release 브랜치의 파일을 다운받아주세요.  
+폴더 안에 Release.zip파일이 있습니다.  
+Release.zip파일을 압축을 풀고 해당 폴더에서 콘솔창을 열어   
+ChatServer listeningPort backEndIp backEndPort maxClientNum를 실행됩니다. 
+(maxClientNum: 한 서버에 접속가능한 최대 클라이언트 수)  
+안전한 종료(FIN전송 포함)을 위해서는 ESCAPE 키를 눌러주세요..  
+  
 ##사용 환경
 .Net FrameWork 4.5.2 이상.  
-따로 사용한 라이브러리는 없습니다.
-
+따로 사용한 라이브러리는 없습니다.  
+  
 ##기능
 Client로부터 Request를 받아 BackEnd에 Request를 그대로 보내고, Response를 받으면 Response를 Client에도 보내줍니다.   
 이때 SUCCESS를 받으면 그에 필요한 정보(Session, Room 등)를 저장합니다.  
