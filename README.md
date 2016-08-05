@@ -2,7 +2,7 @@
 
 Common Module : https://github.com/lunker/ChatProtocol  
 Client : https://github.com/Simhyejin/ChatClient  
-Frontend server : https://github.com/kimsin3003/ChatServer/tree/Release
+Frontend server : https://github.com/kimsin3003/ChatServer/tree/Release  
 Backend Server : https://github.com/lunker/lunkerRedis
 
 ---
