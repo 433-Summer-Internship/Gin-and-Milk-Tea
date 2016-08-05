@@ -6,13 +6,14 @@ Frontend server : https://github.com/kimsin3003/ChatServer
 Backend Server : https://github.com/lunker/lunkerRedis
 
 ---
-# Client
+[Client](/client)
+[FrontEndServer](/fe)
+---
+<div id ="client"># Client </div>
 
 ## 실행 환경
 - .NET 4.5.2 이상
 
-
----
 ## Client : 채팅 클라이언트
 
 ### 실행
@@ -30,8 +31,6 @@ __App.config__ 파일에서 <appSettings>에 `key =  "ip,port"`를 추가한다.
 - Chatting
 - Health Check
 - Connect Passing
-
----
 
 ## Dummy : 더미 클라이언트
 - 정해진 프로토콜에 따라 채팅 룸까지 들어와서 무작위 개수의 현재 시간 정보를 출력하고 5~10초 사이 기다린 후 로그아웃
@@ -64,8 +63,6 @@ Login ----------------------------------> Loby ----> Room List 조회 ----------
 ... ------> 무작위 개수의 현재 시간 정보를 출력 -----> 5~10초 사이 기다린 후 -----> LogOut -------> Exit
   </pre>     
   
----
-
 ## Monitoring : 현재 채팅 시스템 상황 보여주는 모니터링 클라이언트
 - 채팅 룸 개수, FE 서버별 사용자 수(더미 클라이언트 포함), 채팅메시지 수 작성 TOP10을 실시간으로 보여줌(더미 제외)
 
@@ -74,7 +71,7 @@ Login ----------------------------------> Loby ----> Room List 조회 ----------
 ### 기능
 
 ---
-#FrontEnd Server
+<div id="fe">#FrontEnd Server</div>
 ##사용법
 Release.zip파일을 압축을 풀고 콘솔창을 열어 ChatServer를 치면 시작 명령어 안내가 나옵니다.  
 안전한 종료(FIN전송 포함)을 위해서는 ESCAPE 키를 눌러주세요..
