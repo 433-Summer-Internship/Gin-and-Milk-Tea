@@ -75,7 +75,6 @@ Login ----------------------------------> Loby ----> Room List 조회 ----------
 ---
 
 # <div id="fe"> FrontEnd Server</div>
-# ChatServer
 
 ##사용법
 1. 반드시 release 브랜치의 파일을 다운받아주세요.
