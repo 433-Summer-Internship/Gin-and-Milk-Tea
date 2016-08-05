@@ -6,9 +6,8 @@ Frontend server : https://github.com/kimsin3003/ChatServer
 Backend Server : https://github.com/lunker/lunkerRedis
 
 ---
-[Client](#client)
-
-[FrontEndServer](#fe)
+- [Client](#client)
+- [FrontEndServer](#fe)
 
 ---
 <div id ="client"># Client </div>
