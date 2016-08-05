@@ -19,7 +19,7 @@ Backend Server : https://github.com/lunker/lunkerRedis
 ## Client : 채팅 클라이언트
 
 ### 실행
-__App.config__ 파일에서 <appSettings>에 `key =  "ip,port"`를 추가한다. (ip와 port를 ,로 구별, 띄어쓰기 없음)
+1 __App.config__ 파일에서 <appSettings>에 `key =  "ip,port"`를 추가한다. (ip와 port를 ,로 구별, 띄어쓰기 없음)
 ``` html 
   <appSettings>
     <add key="10.100.58.9,11000"/>
@@ -28,6 +28,7 @@ __App.config__ 파일에서 <appSettings>에 `key =  "ip,port"`를 추가한다.
     <add key="10.100.58.9,14000"/>
   </appSettings>
 ```
+2  client.exe 를 실행
 
 ### 기능
 - Chatting
@@ -47,11 +48,8 @@ __App.config__ 파일에서 <appSettings>에 `key =  "ip,port"`를 추가한다.
     <add key="10.100.58.9,14000"/>
   </appSettings>
 ```
-2 `Run Project` > `Run.cs` > `Main.cs` >  `Process.Start()`  함수안에 `Dummy.exe` 파일 위치를 넣는다.
-``` C#
- Process.Start("C:\\Users\\Yungyung\\Documents\\Visual Studio 2015\\Projects\\Chatting\\Dummy\\bin\\Release\\Dummy.exe","dummy"+i);
-```
-3 `Run Project`를 통해 Dummy Client 시작 가능
+2 Release 파일이 위피한 폴더에서 콘솔창을 열어 `dummy id`를 입력한다.
+(단, id는 dummy로 시작하며 뒤에 숫자가 붙을 수 있다. 예시, dummy1, dummy2, ...)
 
 ### 로직
  <pre>            
@@ -69,6 +67,8 @@ Login ----------------------------------> Loby ----> Room List 조회 ----------
 - 채팅 룸 개수, FE 서버별 사용자 수(더미 클라이언트 포함), 채팅메시지 수 작성 TOP10을 실시간으로 보여줌(더미 제외)
 
 ### 실행
+1. Admin.exe를 실행
+2. 아이디 : admin 비밀번호 : root
 
 ### 기능
 
@@ -76,16 +76,17 @@ Login ----------------------------------> Loby ----> Room List 조회 ----------
 
 # <div id="fe"> FrontEnd Server</div>
 ##사용법
-1. 반드시 release 브랜치의 파일을 다운받아주세요.  
-2. 폴더 안에 Release.zip파일이 있습니다.  
-3. Release.zip파일을 압축을 풀고 해당 폴더에서 콘솔창을 열어   
-4. ChatServer listeningPort backEndIp backEndPort maxClientNum를 입력하면 실행됩니다. (maxClientNum: 한 서버에 접속가능한 최대 클라이언트 수)   
-5. 안전한 종료(FIN전송 포함)을 위해서는 ESCAPE 키를 눌러주세요..  
-  
+반드시 release 브랜치의 파일을 다운받아주세요.
+폴더 안에 Release.zip파일이 있습니다.
+Release.zip파일을 압축을 풀고 해당 폴더에서 콘솔창을 열어 
+ChatServer listeningPort backEndIp backEndPort maxClientNum를 치면 시작 명령어 안내가 나옵니다.  
+maxClientNum: 한 서버에 접속가능한 최대 클라이언트 수
+안전한 종료(FIN전송 포함)을 위해서는 ESCAPE 키를 눌러주세요..
+
 ##사용 환경
 .Net FrameWork 4.5.2 이상.  
-따로 사용한 라이브러리는 없습니다.  
-  
+따로 사용한 라이브러리는 없습니다.
+
 ##기능
 Client로부터 Request를 받아 BackEnd에 Request를 그대로 보내고, Response를 받으면 Response를 Client에도 보내줍니다.   
 이때 SUCCESS를 받으면 그에 필요한 정보(Session, Room 등)를 저장합니다.  
