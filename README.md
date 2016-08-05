@@ -8,7 +8,8 @@ Backend Server : https://github.com/lunker/lunkerRedis
 
 #FrontEnd Server
 ##사용법
-Release.zip파일을 압축을 풀고 콘솔창을 열어 ChatServer를 치면 사용법이 나옵니다.
+Release.zip파일을 압축을 풀고 콘솔창을 열어 ChatServer를 치면 시작 명령어 안내가 나옵니다.
+안전한 종료(FIN전송 포함)을 위해서는 ESCAPE 키를 눌러주세요..
 
 ##사용 환경
 .Net FrameWork 4.5.2 이상.
