@@ -10,11 +10,11 @@ Backend Server : https://github.com/lunker/lunkerRedis
 ##사용법
 Release.zip파일을 압축을 풀고 콘솔창을 열어 ChatServer를 치면 사용법이 나옵니다.
 
-* ##사용 환경
+##사용 환경
 .Net FrameWork 4.5.2 이상.
 따로 사용한 라이브러리는 없습니다.
 
-* ##기능
+##기능
 Client로부터 Request를 받아 BackEnd에 Request를 그대로 보내고, Response를 받으면 Response를 Client에도 보내줍니다. 
 이때 SUCCESS를 받으면 그에 필요한 정보(Session, Room 등)를 저장합니다.
 
