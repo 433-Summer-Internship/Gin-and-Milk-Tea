@@ -72,7 +72,8 @@ Login ----------------------------------> Loby ----> Room List 조회 ----------
 ### 기능
 
 ---
-<div id="fe">#FrontEnd Server</div>
+
+<div id="fe"> # FrontEnd Server</div>
 ##사용법
 Release.zip파일을 압축을 풀고 콘솔창을 열어 ChatServer를 치면 시작 명령어 안내가 나옵니다.  
 안전한 종료(FIN전송 포함)을 위해서는 ESCAPE 키를 눌러주세요..
