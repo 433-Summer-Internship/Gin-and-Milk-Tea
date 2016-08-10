@@ -66,7 +66,7 @@ Backend Server : https://github.com/lunker/lunkerRedis
 ### 로직
  <pre>            
       (성공)                                                        (RoomList에서 랜덤 Room No를 뽑아 입장)
-Login ----------------------------------> Loby ----> Room List 조회 ---------------------------------> Room ------> ...
+Login ----------------------------------> Lobby ----> Room List 조회 ---------------------------------> Room ------> ...
       \                                /                            \                               / 
        ----> Signup -----> Login ---->                               ---------> Create Room ------->
       (실패)                                                         (RoomList가 비어잇으면)      
