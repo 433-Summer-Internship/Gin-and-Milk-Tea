@@ -1,4 +1,5 @@
-# Taewoo-Dongue-Hyejin
+# Gin-and-Milk-Tea
+
 
 Common Module : https://github.com/lunker/ChatProtocol  
 Client : https://github.com/Simhyejin/ChatClient  
