@@ -1,5 +1,6 @@
 # Gin-and-Milk-Tea
 
+![Alt text](/그림1.jpg "logo")
 
 Common Module : https://github.com/lunker/ChatProtocol  
 Client : https://github.com/Simhyejin/ChatClient  
